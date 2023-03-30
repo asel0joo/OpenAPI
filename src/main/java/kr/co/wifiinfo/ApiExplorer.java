@@ -13,7 +13,7 @@ public class ApiExplorer {
 		
 		StringBuilder urlBuilder = new StringBuilder("http://openapi.seoul.go.kr:8088"); /*URL*/
 		urlBuilder.append("/" + URLEncoder.encode("4c59495946736f6f39367772457975","UTF-8") ); /*인증키*/
-		urlBuilder.append("/" + URLEncoder.encode("xml","UTF-8") ); /*요청파일타입(xml,xmlf,xls,json) */
+		urlBuilder.append("/" + URLEncoder.encode("json","UTF-8") ); /*요청파일타입(xml,xmlf,xls,json) */
 		urlBuilder.append("/" + URLEncoder.encode("TbPublicWifiInfo","UTF-8")); /*서비스명 (대소문자 구분 필수입니다.)*/
 		urlBuilder.append("/" + URLEncoder.encode("1","UTF-8")); /*요청시작위치*/
 		urlBuilder.append("/" + URLEncoder.encode("20","UTF-8")); /*요청종료위치(sample인증키 사용시 5이상 숫자 선택 안 됨)*/
