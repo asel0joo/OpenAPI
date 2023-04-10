@@ -19,13 +19,13 @@
 *****
 ### 파일 설명
 <img width="200" alt="파일 구조" src="https://user-images.githubusercontent.com/111031449/230829987-3a47c747-c0b5-4db6-8619-79fb7052b05b.png">
- - java/kr/co.wifiinfo 
-  - Dto.java : 데이터 객체
-  - ApiExplorer.java : 서울 열린데이터 광장의 Open Api의 json DB 가져오기
-  - Services.java : DB insert, select, delete 기능
+ -java/kr/co.wifiinfo 
+  -Dto.java : 데이터 객체
+  -ApiExplorer.java : 서울 열린데이터 광장의 Open Api의 json DB 가져오기
+  -Services.java : DB insert, select, delete 기능
   
- - webapp
-  - dataProcess.jsp : history.jsp에 db insert, 근처 와이파이 정보 db 출력을 위해 id 전달 역할
-  - history.jsp : 위치 히스토리 목록 페이지 
-  - index.jsp : 메인 페이지
-  - load_wifi.jsp : Open Api db 정상호출 완료 페이지
+ -webapp
+  -dataProcess.jsp : history.jsp에 db insert, 근처 와이파이 정보 db 출력을 위해 id 전달 역할
+  -history.jsp : 위치 히스토리 목록 페이지 
+  -index.jsp : 메인 페이지
+  -load_wifi.jsp : Open Api db 정상호출 완료 페이지
