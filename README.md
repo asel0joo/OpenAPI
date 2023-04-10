@@ -22,8 +22,7 @@
  + java/kr/co.wifiinfo 
   + Dto.java : 데이터 객체
   + ApiExplorer.java : 서울 열린데이터 광장의 Open Api의 json DB 가져오기
-  + Services.java : DB insert, select, delete 기능
-  
+  + Services.java : DB insert, select, delete 기능  
  + webapp
   + dataProcess.jsp : history.jsp에 db insert, 근처 와이파이 정보 db 출력을 위해 id 전달 역할
   + history.jsp : 위치 히스토리 목록 페이지 
